@@ -1,0 +1,8 @@
+{
+  "name": "To Do's",
+  "version": "1.2",
+  "description": "The first new tab to-do extension that twitter.com/nishantmodak made.",
+  "chrome_url_overrides" : {
+    "newtab": "test.html"
+  }
+}

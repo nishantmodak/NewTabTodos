@@ -18,8 +18,8 @@
 		  <h1>To Do's</h1></header>
           <section>
           <div class="center" id="websqldb-example">
-            <input type="text" id="todoitem" />
-            <button onclick="webSqlSample.newRecord()">new to do item</button>
+            <input type="text" id="todoitem" onkeydown="if (event.keyCode == 13) document.getElementById('doit').click()"/>
+            <button id="doit" onclick="webSqlSample.newRecord()" >new to do item</button>
             <ol class="record-list" id="db-results"></ol>
             <div id="db-log"></div>
           </div>
